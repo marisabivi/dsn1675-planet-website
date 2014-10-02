@@ -57,12 +57,12 @@ h1 {
     text-decoration: none;
 }
 
-@media only screen and (min-width:20em) {
+@media only screen and (min-width:25em) {
     .nav li {
         display:block;
     }
 
-@media only screen and (min-width:40em) {
+@media only screen and (min-width:38em) {
     .nav li {
         display:inline-block;
     }
