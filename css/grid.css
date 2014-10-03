@@ -29,8 +29,6 @@ html {
   -webkit-flex-flow: row wrap;
   display: -ms-flexbox;
   -ms-flex-flow: row wrap;
-  float: left;
-  overflow: hidden;
 }
 
 .grid-bottom {
