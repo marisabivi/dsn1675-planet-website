@@ -11,29 +11,35 @@
     
 <body>
     <header>
-        <h1 class="title tera">Mars</h1>
-        <nav>
-            <ul class="nav mega">
-                <li><a href="index.html">Planet</a></li>
-                <li><a href="moons.html">Moons</a></li>
-                <li><a href="#">Explortion</a></li>
-            </ul>
-        </nav> 
+        <div class="grid">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+                <h1 class="title tera">Mars</h2>
+            </div>
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4">
+                <nav>
+                    <ul class="nav nav-top mega">
+                        <li class="island-1-2"><a href="index.html">Planet</a></li>
+                        <li class="island-1-2"><a href="moons.html">Moons</a></li>
+                        <li class="island-1-2"><a href="exploration.html">Explortion</a></li>
+                    </ul>
+                </nav> 
+            </div>
+        </div>
     </header>
     <div class="grid">
     
         <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-            <h2>Moons</h2>
+            <h2 class="discription">Moons</h2>
         </div>
     
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
+            <div class="island unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
                 <div class="grid">
                     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
                         <img src="images/phobos.jpg" alt=""> 
                     </div>
                     
                     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                        <h3 class="giga">Mar's First Moon: Phobos</h3>
+                        <h3 class="giga pad-top">Mar's First Moon: Phobos</h3>
                         <p class="mega">The satellites, Phobos was discovered in 1877 by Asaph Hall and are named after the character Phobos (panic/fear) who, in Greek mythology, accompanied her/his father Ares, god of war, into battle. Ares was known as Mars to the Romans.</p>
                     </div>
                     
@@ -42,7 +48,7 @@
                         <dd class="mega"><data value="14">14 miles</data></dd>
             
                         <dt class="milli">Mass</dt>
-                        <dd class="mega"><data value="1.0659×1016">1.0659×1016&nbsp; kg</data></dd>
+                        <dd class="mega"><data value="1.0659×1016">1.0659×1016&nbsp;kg</data></dd>
             
                         <dt class="milli">Orbital period</dt>
                         <dd class="mega"><data value="11">11 hours</data></dd>
@@ -51,14 +57,14 @@
             </div>
             
         
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <div class="island unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
                 <div class="grid">
                     <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
                         <img src="images/deimos.jpg" alt=""> 
                     </div>
             
                 <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                    <h3 class="giga">Mar's Second Moon: Deimos</h3>
+                    <h3 class="giga pad-top">Mar's Second Moon: Deimos</h3>
                     <p class="mega">The satellites, Deimos was discovered in 1877 as well by Asaph Hall and are named after the character Deimos (terror/dread) who along with Phobos, in Greek mythology, accompanied their father Ares, god of war, into battle. Ares was known as Mars to the Romans.</p>
                 </div>
                     
@@ -76,16 +82,23 @@
         </div>  
     </div>
     
-    <footer>
-        <p>©2014 Venus Planetary Consortium</p>
-        <nav>
-            <ul class="nav mega">
-                <li><a href="index.html">Planet</a></li>
-                <li><a href="moons.html">Moons</a></li>
-                <li><a href="#">Explortion</a></li>
-            </ul>
-        </nav> 
+   <footer class="grid">
+  
+      <div class="gutter unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+        <p>©2014 Mars Planetary Consortium</p>
+       </div>
+        
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4">
+            <nav>
+                <ul class="nav mega">
+                    <li class="gutter-1-2 milli"><a href="index.html">Planet</a></li>
+                    <li class="gutter-1-2 milli"><a href="moons.html">Moons</a></li> 
+                    <li class="gutter-1-2 milli"><a href="exploration.html">Explortion</a></li>
+                </ul>
+            </nav>
+        </div>
     </footer>
+    
           
 </body>
 </html>
