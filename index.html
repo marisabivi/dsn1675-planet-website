@@ -8,71 +8,75 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/typography.css" rel="stylesheet">
 </head>
+<body>   
     
-<body>
-    <header>
+  <header class="grid masthead">
+     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+        <h1 class="title peta island-half">Mars</h2>
+     </div>   
+     <div class="unit unit-xs-1 unit-s-1- unit-m-1-2 unit-l-3-4">
+        <nav>
+           <ul class="nav nav-top giga">
+              <li class="island-half"><a href="index.html">Planet</a></li>
+              <li class="island-half"><a href="moons.html">Moons</a></li>
+              <li class="island-half"><a href="exploration.html">Exploration</a></li>
+            </ul>
+          </nav> 
+      </div>   
+   </header>
     
-    <div class="grid">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
-            <h1 class="title tera">Mars</h2>
-        </div>
-        <div class="unit unit-xs-1 unit-s-1- unit-m-1-2 unit-l-3-4">
-            <nav>
-                <ul class="nav nav-top mega">
-                    <li class="island-1-2"><a href="index.html" class="selected">Planet</a></li>
-                    <li class="island-1-2"><a href="moons.html">Moons</a></li>
-                    <li class="island-1-2"><a href="exploration.html">Explortion</a></li>
-                </ul>
-            </nav> 
-        </div>
-    </div>
-    </header>
+   <main>     
     
-    <div class="grid">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-            <p class="discription peta">Mars, the fourth planet in the Solar System</h1>
-        </div>
+      <div class="grid">
+       <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+           <p class="discription peta">Mars, the fourth planet in the Solar System</p>
+       </div>
         
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
             <img src="images/mars.jpg" alt=""> 
         </div>
+    
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-            <h2 class="island">Mars</h2>
+            <h2 class="island-1-2 gutter">Mars</h2>
             <p class="gutter micro">Mars is the second smallest planet in the Solar System, after Mercury. Named after the Roman god of war, it is often described as the "Red Planet" because the iron oxide prevalent on its surface gives it a reddish appearance. Mars is a terrestrial planet with a thin atmosphere, having surface features reminiscent both of the impact craters of the Moon and the volcanoes, valleys, deserts, and polar ice caps of Earth. </p>
         </div>
 
     <div class="grid multi-images">
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
-            <img src="images/mars-rocks.jpg" alt="">
+            <img src="images/mars-rocks.jpg" class="pad-t" alt="">
             <p class="island-half milli">Mars is a terrestrial planet that consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. The surface of Mars is primarily composed of tholeiitic basalt, although parts are more silica-rich than typical basalt and may be similar to andesitic rocks on Earth or silica glass. </p>
         </div>
+        
         <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-3">
-            <img src="images/nasa-mars-rover.jpg" alt="">
+            <img src="images/nasa-mars-rover.jpg" class="pad-t" alt="">
             <p class=" island-half milli">Analysis using the rover's DAN instrument provided evidence of subsurface water, amounting to as much as 4% water content, down to a depth of 60 cm, in the rover's traverse from the Bradbury Landing site to the Yellowknife Bay area in the Glenelg terrain.</p>
         </div>
+        
         <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-3">
-            <img src="images/mars-atmosphere.jpg" alt="">
+            <img src="images/mars-atmosphere.jpg" class="pad-t" alt="">
             <p class="island-half milli">Compared to Earth, the atmosphere of Mars is quite rarefied. Atmospheric pressure on the surface today ranges from a low of 30 Pa (0.030 kPa) on Olympus Mons to over 1,155 Pa (1.155 kPa) in Hellas Planitia, with a mean pressure at the surface level of 600 Pa (0.60 kPa).</p>
         </div>
         
-        <div class=" gutter info unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-            <h2 class="mega">Orbital Characteristics</h2>
+        
+        <div class="gutter info unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+            <h2 class="mega pad-t">Orbital Characteristics</h2>
                 <dl>  
                     <dt class="milli">Aphelion</dt>	
-                    <dd  class="mega"><data value="249.2">249.2 million&nbsp;km</data></dd>
+                    <dd class="mega"><data value="249.2">249.2 million&nbsp;km</data></dd>
         
                     <dt class="milli">Perihelion</dt>	
-                    <dd  class="mega"><data value="206.7">206.7 million&nbsp;km</data></dd>
+                    <dd class="mega"><data value="206.7">206.7 million&nbsp;km</data></dd>
         
                     <dt class="milli">Orbital period</dt>
-                    <dd  class="mega"><data value="686.971">686.971&nbsp;d</data></dd>
+                    <dd class="mega"><data value="686.971">686.971&nbsp;d</data></dd>
 
                     <dt class="milli">Average orbital speed</dt>
                     <dd class="mega"><data value="24.077">24.077&nbsp;km/s</data></dd>
+                </dl>
         </div>
         
         <div class="gutter info unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-            <h2 class="mega">Physical Characteristics</h2>
+            <h2 class="mega pad-t">Physical Characteristics</h2>
                 <dl>
                     <dt class="milli"> Mean radius</dt>
                     <dd class="mega"><data value="3389.5±0.2">3389.5±0.2&nbsp;km</data></dd>
@@ -90,21 +94,23 @@
         </div>
     </div>
 
+    
     <footer class="grid">
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
-            <p class="milli">©2014 Mars Planetary Consortium</p>
+            <p class="milli pad-t-1-2 gutter-1-2">©2014 Mars Planetary Consortium</p>
         </div>
         
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4">
             <nav>
                 <ul class="nav mega">
-                    <li class="gutter-1-2 milli"><a href="index.html">Planet</a></li>
-                     <li class="gutter-1-2 milli"><a href="moons.html">Moons</a></li> 
-                      <li class="gutter-1-2 milli"><a href="exploration.html">Explortion</a></li>
+                    <li class="gutter-1-2 milli pad-t-1-2"><a href="index.html">Planet</a></li>
+                    <li class="gutter-1-2 milli pad-t-1-2"><a href="moons.html">Moons</a></li> 
+                    <li class="gutter-1-2 milli pad-t-1-2"><a href="exploration.html">Exploration</a></li>
                 </ul>
             </nav>
         </div>
     </footer>
-        
+
+   </main>
 </body>
 </html>
