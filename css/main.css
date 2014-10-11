@@ -102,6 +102,11 @@ h1 {
         text-align: left;
     }
     
+    footer {
+    background-color: #ccc;
+    overflow: hidden;
+    }
+    
 }
     
 @media only screen and (min-width:60em) {
@@ -114,11 +119,16 @@ h1 {
      }
     
     .nav li {
-        float:left;
+        float: center;
     }
     
     .nav li {
         display:inline-block;
+    }
+    
+    footer {
+    background-color: #ccc;
+    overflow: hidden;
     }
     
 }
