@@ -16,6 +16,40 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width:60em) {
+    html {
+        font-size: 110%
+    }
+    
+    .visually-hidden-2 {
+    display: none;
+    }
+}
+
+@media only screen and (min-width:90em) {
+    html {
+        font-size: 120%
+    }
+    
+    .visually-hidden-2 {
+    display: none;
+    }
+}
+
+@media only screen and (min-width:120em) {
+    html {
+        font-size: 130%
+    }
+    
+    .visually-hidden-2 {
+    display: none;
+    }
+    
+    .visually-hidden-1 {
+    
+    }
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -42,7 +76,7 @@ header {
 }
 
 .multi-images {
-    background-color:  #efefef;
+    background-color:#efefef;
     width :100%
 }
 
@@ -55,6 +89,7 @@ footer {
     background-color: #ccc;
     overflow: hidden;
 }
+
 
 .title {
     text-align: center;
@@ -88,14 +123,42 @@ h1 {
     .nav li {
         display:inline-block;
     }   
+    
+    .copyright {
+    text-align: center;    
+    }
+
+    .visually-hidden-1 {
+    display: none;
+    float: left;
+    }
+    
+    .bold {
+     font-weight: bold;
+    }
+    
+    .visually-hidden-4 {
+    display: none;
+    } 
+    
+    .bold {
+    font-weight: normal;
+    }
 }
+         
+
 
 @media only screen and (min-width:38em) {
     .nav li {
         display:inline-block;
     }
+    
+    .nav-top {
+    text-align: center
+    }
+    
     .nav {
-        text-align: center;
+        text-align: right;
     }
     
     .title {
@@ -107,6 +170,35 @@ h1 {
     overflow: hidden;
     }
     
+    .visually-hidden-2 {
+    display: none;
+    }
+    
+    .visually-hidden-1 {
+    display: block;
+    float: left;
+    }
+    
+    .visually-hidden-3 {
+    display: block;
+    } 
+    
+    .visually-hidden-4 {
+    display: none;
+    } 
+    
+    .bold {
+    font-weight: normal;
+    }
+    
+    .footernav a:after {
+        content: "•";
+        padding-left: .5em;
+    }
+    
+    .footernav li:last-child a:after {
+        content: none;
+    }
 }
     
 @media only screen and (min-width:60em) {
@@ -118,8 +210,22 @@ h1 {
          text-align: center;  
      }
     
-    .nav li {
-        float: center;
+    .nav {
+        text-align: center;
+    }
+    
+    .footernav {
+        float: right;
+        display: inline-block;   
+    }
+    
+    .footernav a {
+        text-decoration: none;
+    }
+    .footernav li {
+        list-style-type: none;
+        float: left;
+            
     }
     
     .nav li {
@@ -127,8 +233,73 @@ h1 {
     }
     
     footer {
-    background-color: #ccc;
-    overflow: hidden;
+        background-color: #ccc;
+        overflow: hidden;
+    }
+    
+    aside {
+        margin: 0 0 1.5rem;
+        padding: 1.5rem 0.8em;
+
+        background-color: #f2f2f2;
+        border-bottom: 1px solid #ddd;
+        border-top: 1px solid #ddd;
+    }
+    
+    dl {
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    dt {
+        clear: left;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 8em;
+    }
+
+    dd {
+        float: left;
+        margin: 0;
+        padding: 0;
+    }   
+
+    .visually-hidden-2 {
+        display: none;
+    }
+    
+    .visually-hidden-1 {
+        display: block;
+        float: left;
+    }
+    
+    
+    .visually-hidden-3 {
+        display: none;
+    } 
+    
+    .visually-hidden-4 {
+        display: block;
+    } 
+    
+    .bold {
+        font-weight: normal;
+    }
+    
+    .discovery {
+        font-weight: normal;
+    }
+    
+       .footernav a:after {
+        content: "•";
+        padding-left: .5em;
+    }
+    
+    .footernav li:last-child a:after {
+        content: none;
     }
     
 }
+
