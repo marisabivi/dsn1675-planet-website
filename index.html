@@ -8,15 +8,20 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/typography.css" rel="stylesheet">
 </head>
-<body>   
+<body>  
     
-  <header class="grid masthead">
-     <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
-        <h1 class="title peta island-half">Mars</h1>
+    <ul class="skip-links">
+        <li><a href="#main">Skip to main content</a></li>
+        <li><a href="#navigation">Skip to navigation</a></li>   
+    </ul>
+    
+  <header role="banner" class="grid grid-middle section-dark masthead">
+     <div class="unit gutter unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+        <h1 class="title peta push-0">Mars</h1>
      </div>   
      <div class="unit unit-xs-1 unit-s-1- unit-m-1-2 unit-l-3-4">
-        <nav>
-           <ul class="nav giga">
+        <nav id="navigation" role="navigation" class="unit gutter-1-2 unit-xs-1- unit-2-1">
+           <ul class="nav giga push-0">
               <li class="island-half"><a href="index.html">Planet</a></li>
               <li class="island-half"><a href="moons.html">Moons</a></li>
               <li class="island-half"><a href="exploration.html">Exploration</a></li>
@@ -25,11 +30,11 @@
       </div>   
    </header>
     
-   <main>     
+   <main role="main" id="main">     
     
      <div class="grid">
-       <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-           <p class="discription peta">Mars, the fourth planet in the Solar System</p>
+       <div class="section-mid intro peta unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+           <p class="discription peta push-0">Mars, the fourth planet in the Solar System</p>
        </div>
         
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
@@ -93,17 +98,21 @@
                     <dt class="milli">Axial tilt</dt>
                     <dd class="mega"><data value="25.19">25.19°</data></dd>
                 </dl>
-            </div>
         </aside>
     </div>
 
     
-    <footer class="grid">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
-            <p class="copyright milli pad-t-1-2 gutter-1-2">©2014 Mars Planetary Consortium</p>
+    <footer class="grid island-half section-dark">
+        <div role="contentinfo" class="unit micro unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <p class="copyright milli push-0">©2014 Mars Planetary Consortium</p>
+            
+            <ul class="skip-links-footer">
+                <li><a href="#main">Skip to main content</a></li>
+                <li><a href="#navigation">Skip to navigation</a></li>   
+            </ul> 
         </div>
         
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
             <nav>
                 <ul class="footernav mega">
                     <li class="gutter-1-2 milli pad-t-1-2"><a href="index.html">Planet</a></li>
