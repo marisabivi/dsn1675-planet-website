@@ -81,7 +81,7 @@ a:focus {
     position: absolute;
     top: -3em;
     background-color: #ffcc66;
-    color: #fff
+    color: #fff;
     text-decoration: none;
     padding: 0.5em 0.75em;
     font-size: 1.25em;
@@ -139,7 +139,7 @@ h1 {
 }
 
 .nav li {
-    color: : #0074D9;
+    color: #0074D9;
 }
 
 .nav a {
