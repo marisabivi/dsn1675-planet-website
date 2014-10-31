@@ -147,6 +147,54 @@ h1 {
     text-decoration: none;
 }
 
+input {
+    vertical-align: middle;
+}
+
+label {
+    display:block;
+    vertical-align: middle;
+}
+
+input + label {
+    display: inline-block;
+}
+
+button {
+    padding: 0.5em 1em;
+    border: 2px solid #efefef;
+    color: black;
+    background-color: #e2e2e2;
+    cursor: pointer;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
+.field {
+    font-size:0.75em;
+    padding: 0.5em;
+    border: 1px solid #e2e2e2;
+}
+
+.field:focus {
+    background-color: #efefef;
+    outline: 2px solid #e2e2e2;
+}
+
+.field2 {
+    font-size:0.75em;
+    padding: 4em;
+    border: 1px solid #e2e2e2;
+}
+
+.field2:focus {
+    background-color: #efefef;
+    outline: 2px solid #e2e2e2;
+}
+
+
 @media only screen and (min-width:25em) {
     .nav {
         text-align: center;
@@ -177,8 +225,7 @@ h1 {
     font-weight: normal;
     }
 }
-         
-
+        
 
 @media only screen and (min-width:38em) {
     .nav li {
