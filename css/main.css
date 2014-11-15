@@ -85,6 +85,11 @@ a:focus {
   width: 100%;
 }
 
+.dis {
+    display: block;
+    float:right;
+}
+
 .masthead {
   overflow: hidden;
 }
